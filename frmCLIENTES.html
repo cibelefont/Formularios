@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de imóveis</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <p class="titulo">Cadastro do Cliente</p>
+
+        <nav class="cabecalho__nav">
+        <a class="cabecalho__itens" href="frmIMÓVEIS(3).html">Imóveis</a>
+         <a class="cabecalho__itens" href="frmPROPRIETARIOS.html">Proprietários</a>
+         <a class="cabecalho__itens" href="frmCLIENTES.html">Clientes</a>
+         </nav>
+    </header>
+
+
+    <form class="formulario">
+        <!--LEGENDA PARA NOME-->
+        <label for="campo_codigo">Código:</label><br>
+
+        <!--CAMPO INPUT DO TYPE TEXT-->
+        <input id="campo_codigo" type="password" placeholder="Digite o código aqui" class="quadrinhos" required>
+
+        <br>
+
+        <label for="campo_nome">Nome:</label><br>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" class="quadrinhos" required>
+
+        <br>
+
+        <!--LEGENDA PARA EMAIL-->
+        <label for="campo_end">Endereço:</label><br>
+
+        <!--CAMPO INPUT DO TYPE EMAIL-->
+        <input id="campo_end" type="text" placeholder="Digite seu endereço aqui" class="quadrinhos" required>
+
+        <br>
+
+        <label for="campo_tell">Telefone de contato:</label><br>
+
+        <input id="campo_tell" type="tel" placeholder="Digite seu telefone aqui" class="quadrinhos" required>
+
+        <br>
+        <br>
+
+        <div class="botoes">
+            <input class="botoes_itens" id="botao_enviar" type="submit" value="Enviar Formulário">
+            <input class="botoes_itens" id="botao_apagar" type="reset" value="Apagar">
+        </div>
+
+    </form>
+
+    <footer class="final">
+        <p class="final__title">Feito por </p>
+        <div class="nomes">
+            <p class="final__title__names"> Cibele</p>
+            <p class="final__title__names"> Alex</p>
+            <p class="final__title__names"> Guilherme</p>
+            <p class="final__title__names"> Marcelo</p>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
